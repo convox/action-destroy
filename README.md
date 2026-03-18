@@ -8,7 +8,7 @@ This Action deletes an app in a Convox Rack. Deleting an app is a permanent and 
 **Required** The name of the [app](https://docs.convox.com/deployment/creating-an-application) you wish to delete.
 ## Example usage
 ```
-uses: convox/action-delete@v1
+uses: convox/action-destroy@v1
 with:
   rack: staging
   app: myapp
