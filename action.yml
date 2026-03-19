@@ -1,6 +1,9 @@
 name: Convox Destroy
 description: Delete a Convox app
 author: Convox
+branding:
+  icon: trash-2
+  color: blue
 inputs:
   rack:
     description: Convox Rack name
